@@ -1,0 +1,14 @@
+@media (max-width: 768px) {
+
+    .plancon{
+        width: 100%;
+    }
+    .freeuk, .worldwidedelivery{
+        display: none;
+    }
+    .everything{
+        display: block;
+        width: 100%;
+        margin: 0;
+    }
+}

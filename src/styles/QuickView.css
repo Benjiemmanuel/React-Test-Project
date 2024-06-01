@@ -1,0 +1,13 @@
+.quick-view {
+    position: absolute;
+    top: 68%;
+    width: 100%;
+    left: 50%;
+    opacity: 0.8;
+    font-size: 13px;
+    transform: translate(-50%, -50%);
+  }
+  
+   .quick-view:hover{
+    cursor: pointer;
+  }

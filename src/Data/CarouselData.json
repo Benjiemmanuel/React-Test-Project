@@ -1,0 +1,33 @@
+{
+  
+  "slides": [
+    {
+      "qualityrating": "100% Satisfaction Guaranteed",
+      "heading": "Expert Washing Services",
+      "description": "Get your clothes cleaned with our professional washing service. We ensure the best care for your garments, using advanced techniques and eco-friendly detergents to remove even the toughest stains while preserving the fabric's quality.",
+      "src": "./assets/wash.avif",
+      "alt": "Image1 for carousel",
+      "button": "SHOP NOW",
+      "contentContainerClass": "custom-content-container1"
+    },
+    {
+      "qualityrating": "Premium Clothing Care Services",
+      "heading": "Effortless Style Solutions",
+      "description": "Let us handle the ironing for you. Enjoy crisp and neatly pressed clothes without the hassle. Our skilled team meticulously irons each garment to perfection, ensuring a professional finish every time.",
+      "src": "./assets/iron.avif",
+      "alt": "Image2 for carousel",
+      "button": "Order Now",
+      "contentContainerClass": "custom-content-container2"
+    },
+    {
+      "qualityrating": "100% Fast Drying Solutions",
+      "heading": "Quick Drying Solutions",
+      "description": "Speed up the drying process with our efficient drying services. Your clothes will be ready in no time. Our state-of-the-art dryers ensure fast and thorough drying without compromising on fabric integrity.",
+      "src": "./assets/dry.webp",
+      "alt": "Image 3 for carousel",
+      "button": "Click Here",
+      "contentContainerClass": "custom-content-container3" 
+    }
+
+  ]
+}

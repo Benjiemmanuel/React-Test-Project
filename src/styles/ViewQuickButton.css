@@ -1,0 +1,7 @@
+.view-quick-button {
+    position: absolute;
+    top: 140%;
+    left: 60%;
+    transform: translateX(-50%);
+  }
+  

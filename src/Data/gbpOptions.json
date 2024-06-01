@@ -1,0 +1,6 @@
+[
+    { "currency": "USD", "label": "USD" },
+    { "currency": "EUR", "label": "EUR" },
+    { "currency": "JPY", "label": "JPY" }
+  ]
+  

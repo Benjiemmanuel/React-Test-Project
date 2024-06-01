@@ -1,0 +1,39 @@
+[
+    {
+      "id": 1,
+      "name": "Black Faux Leather Front Lace Up Leggings",
+      "mainImage": "./assets/leggings.jpg",
+      "hoverImage": "./assets/leggingsPart.jpg",
+      "price": "$13.99",
+      "discountPrice": "$11.19",
+      "discountCode": "TAKE20"
+    },
+    {
+        "id": 2,
+        "name": "Black Scoop Neck Rib Knit Bodycon Mini Dress",
+        "mainImage": "./assets/minidressfront.jpg",
+        "hoverImage": "./assets/minidress.jpg",
+        "price": "$9.59",
+        "discountPrice": "$11.99",
+        "discountCode": "TAKE20"
+      },
+      {
+        "id": 3,
+        "name": "Grey Plus Size Waterfall Collar Belted Duster Coat",
+        "mainImage": "./assets/coatpart1.jpg",
+        "hoverImage": "./assets/coatpart2.jpg",
+        "price": "$19.99",
+        "discountPrice": "$24.99",
+        "discountCode": "TAKE20"
+      },
+      {
+        "id": 4,
+        "name": "Off White Faux Fur Midi Length Coat of good qualilty",
+        "mainImage": "./assets/midilength1.jpg",
+        "hoverImage": "./assets/midilength2.jpg",
+        "price": "$23.99",
+        "discountPrice": "$29.99",
+        "discountCode": "TAKE20"
+      }
+  ]
+  

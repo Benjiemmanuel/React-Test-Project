@@ -1,0 +1,21 @@
+{
+    "person":[
+        {   "id":3,
+        "name":"Euel",
+        "age":12,
+        "skills":"Mobile App"
+    },
+        {
+            "id":1,
+            "name":"Benji",
+            "age":20,
+            "skills":"Web development"
+        },
+        {   "id":2,
+            "name":"Emmanuel",
+            "age":12,
+            "skills":"Mobile App"
+        }
+    
+    ]
+}

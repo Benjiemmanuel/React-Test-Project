@@ -1,0 +1,39 @@
+.navbar {
+    background-color: #FFFFFF;
+    padding: 1.5rem 0;
+  }
+  .hamburger{
+    display: none;
+  }
+  .searchOnlyIcon {
+    display: none;
+  }
+  
+  @media (max-width: 768px) {
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+        align-items:center;
+    }
+    .searchOnlyIcon {
+      display: block;
+      margin-top: 10px;
+    }
+    .hamburger{
+        display: block;
+    }
+    .searchIcon {
+      display: none;
+      margin-right: 20px;
+    }
+    .navInput,
+  .subnav,
+  .gbp-signin{
+    display: none;
+  }
+    
+   .shopingIcons{
+    font-size: 20px;
+   }
+  }
+  

@@ -1,0 +1,112 @@
+/* CustomCarousel.module.css */
+.carousel {
+  @apply relative m-10  flex justify-center items-center h-96;
+}
+
+.content-container {
+  @apply box-border flex flex-col m-12 justify-center w-96 items-start pl-4 absolute top-1 bottom-1 left-6 z-10 text-white text-left;
+  background-color: rgba(70, 66, 66, 0.8);
+  border: none;
+  opacity: 0.7;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px #555;
+}
+
+@keyframes zoomIn {
+  from {
+    @apply transform scale-0;
+  }
+  to {
+    @apply transform scale-100;
+  }
+}
+
+.content-container h3 {
+  @apply text-green-400 text-4xl mb-4;
+}
+
+.content-container h2 {
+  @apply text-2xl font-semibold mb-2;
+}
+
+.content-container p {
+  @apply text-base mb-4 font-normal;
+}
+
+.content-container button {
+  @apply px-4 py-2 bg-[#fff] text-[#000] w-44  text-center  text-xl font-medium rounded cursor-pointer;
+}
+
+.content-container button:hover {
+  @apply opacity-60 text-[#fff] bg-[#000];
+  
+}
+
+.slide {
+  @apply rounded-lg shadow-md w-full h-full overflow-hidden;
+}
+
+.slide-hidden {
+  @apply hidden;
+}
+
+.arrow {
+  @apply absolute w-8 h-8 text-white filter drop-shadow-md;
+}
+
+.arrow:hover {
+  @apply cursor-pointer;
+}
+
+.arrow-left {
+  @apply left-4;
+}
+
+.arrow-right {
+  @apply right-4;
+}
+
+.indicators {
+  @apply flex absolute bottom-4;
+}
+
+.indicator {
+  @apply bg-white h-2 w-2 rounded-full border-none outline-none shadow-md mx-1 cursor-pointer;
+}
+
+.indicator-inactive {
+  @apply bg-gray-500;
+}
+@media (max-width: 768px) {
+  .CarouselDisplay{
+    width: 100%;
+    height: auto;
+  }
+  .carousel {
+    height: 30vh;
+  }
+
+  .slide {
+    position: relative;
+    margin-top: 0;
+    width: 100%;
+    height: 20vh;
+  }
+
+  .content-container {
+    display: none;
+    position: static;
+    transform: none;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .arrow {
+    display: none;
+  }
+
+  .indicators {
+    bottom: 0;
+    transform: none;
+  }
+}
