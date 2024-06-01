@@ -1,9 +1,9 @@
-import LifecycleA from "./components/LifecycleA";
+import Home from "./pages/Home";
 
 function App() {
   return (
     <div>
-      <LifecycleA />
+    <Home/>
     </div>
   );
 }
